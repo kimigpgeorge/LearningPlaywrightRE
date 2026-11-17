@@ -19,7 +19,7 @@ test("popvalidation",async({page})=>
     const framePage = page.frameLocator("#courses-iframe");
    
 });
-test.only("screenshot",async({page})=>{
+test("screenshot",async({page})=>{
 
 
  await page.goto("https://rahulshettyacademy.com/AutomationPractice/")
